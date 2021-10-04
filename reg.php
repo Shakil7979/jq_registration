@@ -88,12 +88,13 @@ $('#login_form').on('submit',function(event){
             var res_address  = json_data.address;
             var res_password  = json_data.password; 
             var res_status  = json_data.status; 
+            var res_status  = json_data.status; 
 
-            if(api_status == 200){
+            if(res_status == 200){
                 alert('login success!');
-            }else if(api_username != username){
+            }else if(res_username != username){
                 alert('username worng!');
-            }else if(api_password != password){
+            }else if(res_password != password){
                 alert('password wrong');
             }else{
                 alert('Login Successfully!');

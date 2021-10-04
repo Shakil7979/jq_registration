@@ -12,15 +12,15 @@ try{
 }
  
 
-    // $data = array(
-    //     'username'   => 'a',
-    //     'phone'   => 0,
-    //     'email'   => 'admin@gmail.com',
-    //     'address'   => 'dhaka', 
-    //     'password'   => 1, 
-    //     'action'    => 'login',
-    //     'status'   => 100
-    // ); 
+    $data = array(
+        'username'   => 'a',
+        'phone'   => 0,
+        'email'   => 'admin@gmail.com',
+        'address'   => 'dhaka', 
+        'password'   => 1, 
+        'action'    => 'login',
+        'status'   => 100
+    ); 
      
     // $data['username']=$_REQUEST['username'];
 
